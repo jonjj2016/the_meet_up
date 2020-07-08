@@ -6,6 +6,7 @@ import TicketIcon from '../../resources/images/icons/ticket.png';
 const MyButton = (props) => {
   return (
     <Button
+      disabled
       href={props.link}
       variant='contained'
       size='small'
